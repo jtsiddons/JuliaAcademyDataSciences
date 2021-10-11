@@ -1,5 +1,7 @@
 # Julia Academy Data Sciences in `Pluto.jl`
 
+![Julia Data Science Logo](datascience.png)
+
 This project is my write-up of the Julia Academy Data Sciences Course ([website](https://juliaacademy.com/p/julia-for-data-science)). The original Jupyter notebooks are found on the official [github repo](https://github.com/JuliaAcademy/DataScience).
 
 My write-ups of the notebooks are in `Pluto.jl`. Some notebooks utilise the inbuilt package management within Pluto, others make use of a local environment (using `Project.toml`). 
@@ -8,7 +10,9 @@ My write-ups of the notebooks are in `Pluto.jl`. Some notebooks utilise the inbu
 
 Run Julia as project in current directory
 
-`julia --project=.`
+```sh
+julia --project=.
+```
 
 Load project.toml
 
